@@ -1,0 +1,29 @@
+{
+  "name": "portreg",
+  "version": "0.0.1",
+  "description": "\"A tool for managing port assignments\"",
+  "main": "source/portreg.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin":{
+    "portreg":"source/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/spencerkohan/portreg.git"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "Spencer Kohan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spencerkohan/portreg/issues"
+  },
+  "homepage": "https://github.com/spencerkohan/portreg#readme",
+  "dependencies": {
+    "detect-port": "^1.2.1",
+    "minimist": "^1.2.0"
+  }
+}
