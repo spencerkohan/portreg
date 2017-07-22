@@ -2,6 +2,12 @@
 
 A tool for managing port assignments.  It offers a way of mapping port addresses to semantically relevant names.
 
+##Installation
+
+Portreg only really makes sense to install globally:
+
+    npm install -g portreg
+
 ##Usage
 
 Portreg has both a cli and node interface.  
