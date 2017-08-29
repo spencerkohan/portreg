@@ -1,18 +1,18 @@
-##Portreg (Port-Registry)
+## Portreg (Port-Registry)
 
 A tool for managing port assignments.  It offers a way of mapping port addresses to semantically relevant names.
 
-##Installation
+## Installation
 
 Portreg only really makes sense to install globally:
 
     npm install -g portreg
 
-##Usage
+## Usage
 
 Portreg has both a cli and node interface.  
 
-###CLI
+### CLI
 
 - `**portreg register <service name> [-p <port>]**`: adds a service to the registry and returns the assigned port.  A port can be supplied with the `-p` option, otherwise the next available port will be chosen.
 
@@ -22,7 +22,7 @@ Portreg has both a cli and node interface.
 
 - `**portreg config [--min <port>] [--max <port>]: returns or sets the min and max port portreg will attempt to assign.  If no arguments are supplied, the current limits will simply be returned.
 
-###Node
+### Node
 
 	// import
 	const portreg = require('portreg')
